@@ -5,25 +5,56 @@
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Specifications](#specifications)
+- [Spectral Libraries](#spectral-libraries)
+- [Quality Assessment](#spectral-quality-assessment)
+- [Library Generation](#spectral-library-generation)
+- [Handling of Spectral Libraries](#handling-of-spectral-libraries)
+- [Compound Annotation](#compound-annotation)
+- [Other Related Resources](#other-related-resources)
 
 
-## Section
+## Specifications
+- [mzSpecLib](https://github.com/HUPO-PSI/mzSpecLib): MS library format specifications
 
-About this section. Optional. Keep this short and focus on the list.
+## Spectral Libraries
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+### Public (Open)
+
+- [GNPS](https://gnps-external.ucsd.edu/gnpslibrary)
+- [MassBankEU](https://massbank.eu/MassBank/), contribute spectra on GitHub
+- [MoNA](https://mona.fiehnlab.ucdavis.edu/) (MassBank of North America)
+
+### Commercial
+
+- [NIST](https://chemdata.nist.gov/dokuwiki/doku.php?id=chemdata:start#libraries)
+- [mzCloud](https://www.mzcloud.org/): MSn spectral tree library
 
 
-## Another Section
+## Spectral Quality Assessment
 
-### Subsection
+- [msPurity](https://pubs.acs.org/doi/10.1021/acs.analchem.6b04358): R, purity score 
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+## Spectral Library Generation
 
+- [mzmine](https://github.com/mzmine/mzmine/): Java, GUI/CLI, process MS data, ion mobility spectrometry, generate spectral libraries, visualize spectra
+- [RMassBank](https://github.com/MassBank/RMassBank) + [scripts](https://github.com/meowcat/RMassBank-scripts/): Generate spectral libraries, requires specific data acquisition method
+- 
+
+## Handling of Spectral Libraries
+
+- [Metabolomics USI resolver](https://metabolomics-usi.gnps2.org/): Web-tool, visualize library spectra and mirror plots
+
+## Compound Annotation
+
+- [FASST / fastMASST](https://fasst.gnps2.org/): Search single spectrum against public libraries or studies 
+- [GNPS2](https://gnps2.org/): Web-apps, nextflow workflows, spectral library matching, molecular networking
+- [mzmine](https://github.com/mzmine/mzmine/): Spectral library matching, molecular networking, MS2Deepscore (soon)
+
+
+## Other Related Resources
+
+- [RepoRT](https://github.com/michaelwitting/RepoRT) ([cite](https://www.nature.com/articles/s41592-023-02143-z)): Retention time database
 
 ## Contribute
 
