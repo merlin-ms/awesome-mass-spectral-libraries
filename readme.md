@@ -39,7 +39,7 @@
 
 - [mzmine](https://github.com/mzmine/mzmine/): Java, GUI/CLI, process MS data, ion mobility spectrometry, generate spectral libraries, visualize spectra
 - [RMassBank](https://github.com/MassBank/RMassBank) + [scripts](https://github.com/meowcat/RMassBank-scripts/): Generate spectral libraries, requires specific data acquisition method
-- 
+- [MSMS-Chooser](https://ccms-ucsd.github.io/GNPSDocumentation/msmschooser/) - Automatically select MS/MS from LC standard runs and generate GNPS libraries
 
 ## Handling of Spectral Libraries
 
