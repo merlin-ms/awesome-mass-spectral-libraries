@@ -49,7 +49,7 @@
 
 - [FASST / fastMASST](https://fasst.gnps2.org/): Search single spectrum against public libraries or studies 
 - [GNPS2](https://gnps2.org/): Web-apps, nextflow workflows, spectral library matching, molecular networking
-- [mzmine](https://github.com/mzmine/mzmine/): Spectral library matching, molecular networking, MS2Deepscore (soon)
+- [mzmine](https://github.com/mzmine/mzmine/): Spectral library matching, molecular networking, MS2Deepscore (local), DreaMS (local)
 
 
 ## Other Related Resources
